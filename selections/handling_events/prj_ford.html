@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORD SALES</title>
+    <link rel="stylesheet" href="prj_ford.css" />
+  </head>
+  <body>
+    <div class="flex-row">
+      <div id="title">
+        <h1>FORD-UD VEHICLE SALES</h1>
+        <p>The sales figures are for 2018 and 2019</p>
+        <p>Includes information on every quarter and the type of vehicle.</p>
+      </div>
+      <div id="image"></div>
+    </div>
+
+    <div>
+      <button id="gen-info">Generate</button>
+    </div>
+    
+    <div id="charts">
+      <div id="years">
+        <p></p>
+        <svg></svg>
+      </div>
+      <div id="quarters">
+        <p></p>
+        <svg></svg>
+      </div>
+      <div id="vehicles">
+        <p></p>
+        <svg></svg>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="prj_ford.js"></script>
+  </body>
+</html>
